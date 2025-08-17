@@ -112,3 +112,74 @@ nav a {
     justify-content: space-evenly;
     font-size: 1.2rem;
 }
+
+.bgImage {
+   width: 777px;
+  height: 666px;
+  /*border: 2px solid white;*/
+  overflow: hidden;
+}
+
+.bgImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.container2 {
+   /* background-color: beige;*/
+    width: 1520px;
+    height: 580px;
+}
+
+.container2 h1 {
+    margin-top: 50px;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+     font-family: Poppins;
+}
+
+.container2 p {
+    margin-top: 10px;
+    font-family: poppins;
+    text-align: center;
+    color: #8C8C8C;
+}
+
+.images {
+    margin-top: 30px;
+    display: flex;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.image1 {
+    width: 373px;
+    height: 354px;
+    /*border: 2px solid black;*/
+}
+
+.image2 {
+    width: 373px;
+    height: 354px;
+    /*border: 2px solid black;*/
+}
+
+.image3 {
+    width: 373px;
+    height: 354px;
+    /*border: 2px solid black;*/
+}
+
+.image4 {
+    width: 373px;
+    height: 354px;
+    /*border: 2px solid black;*/
+}
+
+.container3 {
+    background-color: burlywood;
+    width: 1520px;
+    height: 680px;
+}
