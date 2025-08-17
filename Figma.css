@@ -53,16 +53,62 @@ nav a {
 .Container {
     background: linear-gradient(219.84deg, #224A7D 4.14%, #0C1B2E 44.22%);
     width: 1521px;
-    height: 741px;
+    height: 670px;
     display: flex;
-    /*justify-content: center;
-    align-items: center; */
 }
 
-.Container h1 {
+.main {
+    margin-top: 150px;
+    margin-left: 50px;
+    height: 350px;
+    width: 700px;
+    /*background-color: red;*/
     color: #FFFFFF;
     font-family: Poppins;
-    margin-top: 40px;
-    font-size: 45px;
-    font-weight: 600;
+}
+
+.main h1 {
+    font-weight: 800;
+     font-family: Poppins;
+}
+
+.text {
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+
+.search-bar {
+    justify-content: space-evenly;
+    width: 580px;
+    height: 45px;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 25px;
+}
+
+.search {
+     width: 100%;
+     font-size: 1.2rem;
+     border: none;
+     border-top-left-radius: 5px;
+     border-end-start-radius: 5px;
+}
+
+.icon {
+    width: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #055BC7;
+    border-top-right-radius: 5px;
+     border-end-end-radius: 5px;
+}
+
+.data {
+    margin-top: 50px;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
 }
