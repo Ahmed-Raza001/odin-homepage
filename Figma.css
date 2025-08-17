@@ -181,5 +181,71 @@ nav a {
 .container3 {
     background-color: burlywood;
     width: 1520px;
-    height: 680px;
+    height: 550px;
+} 
+
+.head {
+     margin-top: 10px;
+    font-family: poppins;
+    text-align: center;
+    color: #055BC7;
+}
+
+.container3 h1 {
+    font-family: poppins;
+    text-align: center;
+    font-weight: 700;
+}
+
+.lorem {
+     margin-top: 10px;
+    font-family: poppins;
+    text-align: center;
+    color: #8c8c8c;
+}
+
+.template {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.template p {
+    font-family: poppins;
+    color: #8c8c8c;
+    margin-top: 140px;
+}
+
+.template h3 {
+     font-weight: 600;
+     margin-top: 10px;
+}
+
+.template i {
+    font-size: 30px;
+}
+
+.template1 {
+    width: 390px;
+    height: 310px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #cbddf4;
+}
+
+.template2 {
+    width: 390px;
+    height: 310px;
+    /* border: 2px solid black; */
+     border-radius: 10px;
+      background-color: #8C8C8C;
+}
+
+.template3 {
+    width: 390px;
+    height: 310px;
+     /*border: 2px solid black;*/
+     border-radius: 10px;
+      background-color: #8C8C8C;
 }
