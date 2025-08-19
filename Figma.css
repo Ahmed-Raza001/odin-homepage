@@ -99,6 +99,7 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     font-size: 1.2rem;
     background-color: #055BC7;
     border-top-right-radius: 5px;
@@ -394,6 +395,7 @@ nav a {
 }
 
 .image {
+   /* background-color: red;*/
     width: 1200px;
     height: 430px;
     margin-left: 140px;
@@ -415,4 +417,162 @@ nav a {
     margin-top: 20px;
     margin-left:100px;
     font-weight: 600;
+}
+
+.allImage {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image1 {
+     width: 500px;
+    height: 250px;
+    margin-top: 80px;
+    object-fit: cover;
+}
+
+.image2 {
+    width: 500px;
+    height: 250px;
+    margin-top: 80px;
+    object-fit: cover;
+    
+}
+
+.image3 {
+    margin-right: 40px;
+     width: 500px;
+    height: 250px;
+    margin-top: 80px;
+    object-fit: cover;
+}
+
+.container7 {
+    width: 1100px;
+    height: 390px;
+    border-radius: 50px;
+    margin-top: 100px;
+    margin-left: 200px;
+    background-color: #055BC7;
+}
+.container7 h1 {
+    width: 420px;
+    height: 90px;
+    margin-left: 50px;
+    padding-top: 50px;
+    font-family: Poppins;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 40px;
+    line-height: 62px;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+    color: #FFFFFF;
+
+}
+
+.container7 p {
+    width: 560px;
+    height: 60px;
+    font-family: Poppins;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+
+}
+
+.btn1 {
+width: 171px;
+height: 48px;
+margin-top: 50px;
+margin-left: 50px;
+gap: 10px;
+opacity: 1;
+cursor: pointer;
+border-radius:78px;
+background: linear-gradient(219.84deg, #224A7D 4.14%, #0C1B2E 44.22%);
+color: #FFFFFF;
+}
+
+.btn2 {
+width: 171px;
+height: 48px;
+margin-top: 50px;
+margin-left: 50px;
+gap: 10px;
+opacity: 1;
+cursor: pointer;
+border-radius:78px;
+background: linear-gradient(219.84deg, #224A7D 4.14%, #0C1B2E 44.22%);
+color: #FFFFFF;
+}
+
+.girlImage {
+    width: 532px;
+    height: 572px;
+    opacity: 1;
+}
+
+.container8 {
+  font-family: Poppins;
+  width: 1520px;
+  height: 360px;
+  margin-top: 50px;
+  padding-top: 100px;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  background: linear-gradient(219.84deg, #224A7D 4.14%, #0C1B2E 44.22%);
+}
+
+ul img {
+    margin-right: 55px;
+    width: 147px;
+    height: 52px;
+}
+
+.wColor {
+    margin-top: 15px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    color: #FFFFFF;
+}
+
+.fa-brands {
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-right: 30px;
+    margin-right: 7px;
+}
+
+.pColor {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    color: #0777FB;
+}
+
+.id {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+
+.copy-right {
+   /* background: linear-gradient(219.84deg, #224A7D 4.14%, #0C1B2E 44.22%);*/
+    background-color: #055BC7;
+     color: #FFFFFF;
+    text-align: center;
 }
